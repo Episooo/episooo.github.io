@@ -2,9 +2,114 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Github space</title>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=0.32, shrink-to-fit=no"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=2.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+	<title>校团委网络中心</title>
+	<style type="text/css">
+@media only screen and (max-width: 1300px) {
+	body {
+    background: url('victor-lam-800507-unsplash.jpg'); 
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    /*border: 1px solid red;*/
+		/*cursor:url("1.png"),auto;*/
+}
+.all{
+	position: absolute;
+	height: 760px;
+	width: 1300px;
+}
+}
+
+/* For width 800px and larger: */
+@media only screen and (min-width: 1300px) {
+    body { 
+        background:url('victor-lam-800507-unsplash.jpg');
+        background-size: 100%; 
+    }
+    .all{
+	height: 100%;
+	width: 100%;
+	}
+    
+
+}
+	@font-face {
+			font-family: 'Fixedsys';
+			src: url('/fonts/fixedsys1.ttf');
+		}
+	.tit{
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			margin: auto;
+			height: 126px;
+			width: 100%;
+
+			/*background-color: white;*/
+		}
+		.line{
+			height: 12px;
+			width: 494px;
+			margin: 0 auto;
+			background-color: white;
+		}
+/**/
+.line-text {
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+
+	height: 100px;
+    font-family: 'Fixedsys';
+	text-align: center;
+	font-size:100px ;
+	margin: auto;
+	width: 100%;
+	color: #009fff;
+}
+
+.line-text span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  left: 27px;
+  transition: 0.5s;
+}
+
+.line-text span:after {
+  content: '»';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  right: -74px;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.line-text:hover span {
+  padding-right: 58px;
+}
+
+.line-text:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/**/
+	</style>
 </head>
-<body>
-	<h1 style="text-align: center;">Hello~</h1>
+<body style="margin: 0;" background="victor-lam-800507-unsplash.png">
+<div class="all" >
+	<!-- 中间enter -->
+<div class="tit">
+<div class="line line-top"> </div>
+<p class="line-text"><span>NETCENTER</span></p>
+<div class="line line-bottom"> </div>
+</div>
+	<!-- 中间enter -->
+</div>
 </body>
 </html>
