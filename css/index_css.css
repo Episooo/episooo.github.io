@@ -1,0 +1,121 @@
+
+/*html,body{height: 100%;width: 100%;margin:0;padding:0;}*/
+html,body{height: 100%;width: 100%;margin:0;padding:0;}
+
+body{
+
+	background:url(http://wx1.sinaimg.cn/large/c84d6174gy1fxbahzc7r0j21900u0hdt.jpg)no-repeat center center;
+
+    width:100%;
+
+    height:100%;
+
+    background-size:cover;
+
+    position:absolute;
+    background-color: black;
+
+    
+}
+.bod{
+	position: absolute;
+	z-index: -1;
+	width:100%;
+
+    height:100%;
+}
+/*body { */
+		/*margin: 0;
+        background:url('../img/index_bg.jpg'); 
+        background-attachment: fixed;
+        background-size: cover;*/
+        /*background-position: center center;*/
+        /*background-repeat: no-repeat;*/
+/*margin:0;padding:0;width:100%;height:auto;*/
+    /*width:100%;
+    height:100%;
+    position:absolute;*/
+    /*}*/
+    
+    /*}*/
+    
+    .all{
+    position: absolute;
+	height: 100%;
+	width: 100%;
+	}
+	@font-face {
+			font-family: 'Fixedsys';
+		/*	src: url('fixedsys.ttf');*/
+			src: url('/fonts/fixedsys1.ttf');
+		}
+	.tit{
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			margin: auto;
+			height: 126px;
+			width: 100%;
+			vertical-align: middle;
+			/*background-color: white;*/
+		}
+		.line{
+			height: 12px;
+			width: 500px;
+			margin: 0 auto;
+			background-color: white;
+		}
+/**/
+.line-text {
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s;
+
+
+	height: 126px;
+	line-height: 126px;
+    font-family: 'Fixedsys';
+	text-align: center;
+	font-size:100px ;
+	margin: auto;
+	width: 100%;
+	color: rgba(255,255,255,1);
+}
+
+span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+
+  left: 26px;
+  transition: 0.7s;
+}
+a {
+	text-decoration: none;
+        color:inherit;
+    }
+.line-text span:after {
+  content: '»';
+  position: relative;
+  opacity: 0;
+  top: -2px;
+  margin: auto;
+  transition: 0.7s;
+}
+
+.text:hover span {
+  padding-right: 59px;
+}
+
+.text:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.backg{
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin:auto;
+	height: 126px;
+	width: 500px;
+	background-color: rgba(255,255,255,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
